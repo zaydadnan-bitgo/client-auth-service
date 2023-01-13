@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    //"declarationMap": false, 
+    "sourceMap": true,
+    "incremental": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    "removeComments": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "module": "CommonJS",
+    "types": ["node"], 
+    "skipLibCheck": true ,   
+  }
+}
+
