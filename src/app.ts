@@ -1,5 +1,7 @@
 import express, {Request, Response} from 'express';
 import {register} from 'prom-client';
+import KeyCloakRouter from './routes/keycloakRouter';
+
 
 const app = express(); 
 
@@ -13,7 +15,9 @@ app.get('/',  async (req : Request, res : Response)  => {
   }
 });
 
-
 app.listen(5000, () => console.log('Server Running')); 
 
+app.use(KeyCloakRouter)
+
 export default app;
+
